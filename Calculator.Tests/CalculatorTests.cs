@@ -10,7 +10,7 @@ public class CalculatorTests
         int a = 5, b = 3;
 
         // Act
-        int result = _calculator.Add(b);
+        int result = _calculator.Add(a, b);
 
         // Assert
         Assert.Equal(8, result);
